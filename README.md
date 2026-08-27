@@ -1,5 +1,7 @@
 <!-- Telas do Sistema (Lado a Lado) -->
-<p align="center">
+
+<p align="center">/
+  <b>Interfaces PC/Celular</b><br><br>
   <img src="Assets/Print1.PNG" alt="Interface no Computador" height="320" />
   &nbsp;&nbsp;
   <img src="Assets/Print2.jpeg" alt="Interface no Celular" height="320" />
