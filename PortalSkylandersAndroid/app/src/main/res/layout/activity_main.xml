@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212">
+
+    <!-- Seu layout original -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <View
+            android:id="@+id/viewGlow"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="#445566"
+            android:layout_marginBottom="20dp"
+            android:alpha="0.2"/>
+
+        <TextView
+            android:id="@+id/tvElement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✖️"
+            android:textSize="44sp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Portal Vazio"
+            android:textColor="#555566"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Área de Conexão: Campo de IP + Botão -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <EditText
+                android:id="@+id/etIpAddress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="IP do PC"
+                android:textColorHint="#888888"
+                android:textColor="#FFFFFF"
+                android:inputType="textUri"
+                android:textAlignment="center"
+                android:backgroundTint="#00FF88"/>
+
+            <Button
+                android:id="@+id/btnConnect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Conectar"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#00FF88"
+                android:textColor="#121212"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conecte ao PC para começar..."
+            android:textColor="#AAAAAA"
+            android:textSize="13sp"
+            android:textAlignment="center"
+            android:background="#1E1E1E"
+            android:padding="12dp"/>
+    </LinearLayout>
+
+    <!-- Tela Preta para Economia de Bateria e Prevenir Burn-in -->
+    <View
+        android:id="@+id/blackOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:visibility="gone"
+        android:clickable="true"
+        android:focusable="true"/>
+
+</FrameLayout>
