@@ -1,0 +1,7 @@
+C:\Users\MAT\source\repos\Skylanders\Skylanders\bin\Debug\Skylanders.exe.config
+C:\Users\MAT\source\repos\Skylanders\Skylanders\bin\Debug\Skylanders.exe
+C:\Users\MAT\source\repos\Skylanders\Skylanders\bin\Debug\Skylanders.pdb
+C:\Users\MAT\source\repos\Skylanders\Skylanders\obj\Debug\Skylanders.csproj.AssemblyReference.cache
+C:\Users\MAT\source\repos\Skylanders\Skylanders\obj\Debug\Skylanders.csproj.CoreCompileInputs.cache
+C:\Users\MAT\source\repos\Skylanders\Skylanders\obj\Debug\Skylanders.exe
+C:\Users\MAT\source\repos\Skylanders\Skylanders\obj\Debug\Skylanders.pdb
