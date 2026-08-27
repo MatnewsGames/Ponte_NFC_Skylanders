@@ -2,7 +2,7 @@
 ![Interface no computador](Assets/Print1.PNG)
 
 <!-- Exemplo para Screenshot -->
-![Interface no Celular](Assets/Print2.PNG)
+![Interface no Celular](Assets/Print2.jpeg)
 
 <!-- Exemplo para GIF -->
 ![Demonstração em Tempo Real](Assets/SkylandersFuncionando.gif)
